@@ -1,0 +1,8 @@
+CREATE TABLE IF NOT EXISTS public.weather_data (
+	pincode varchar(7) NOT NULL,
+	wdata varchar(4000) NULL,
+	rdate varchar(10) NULL,
+	latitute float8 NULL,
+	longitute float8 NULL,
+	CONSTRAINT weather_date_pkey1 PRIMARY KEY (pincode,rdate)
+);
